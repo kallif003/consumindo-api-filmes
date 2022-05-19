@@ -27,6 +27,7 @@ Esse projeto foi feito utilizando React e Typescript<br> e consume uma Api de fi
 
  <img src="https://img.shields.io/badge/React%20-%2320232a.svg?&style=for-the-badge&logo=&logoColor=%2361DAFB" height="25"/>
   <img src="https://img.shields.io/badge/Typescript%20-%2320232a.svg?&style=for-the-badge&logo=&logoColor=%2361DAFB" height="25"/>
+
  <img src="https://img.shields.io/badge/Styled Components%20-%2320232a.svg?&style=for-the-badge&logo=&logoColor=%2361DAFB" height="25"/>
 </p>
 
