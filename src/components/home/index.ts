@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ContainerMovies = styled.div`
 color: #fff;
+
 `
 export const Title = styled.h1`
 text-align: center;
@@ -14,6 +15,15 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 column-gap: 3rem;
 row-gap: 4rem;
+padding-right: 40px;
+@media(min-width:300px) and (max-width: 768px) {
+  grid-template-columns: repeat(1, 1fr);
+ 
+}
+@media(min-width:769px) and (max-width: 1023px) {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 0.5rem;
+}
 `
 export const Li = styled.li`
 display: flex;
