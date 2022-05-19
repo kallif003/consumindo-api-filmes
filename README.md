@@ -11,7 +11,7 @@
 
 
 <p align="center">
-Esse projeto foi feito utilizando React e Typescript<br> e consume uma Api de filmes atraves do metodo fetch
+Esse projeto foi feito utilizando React e Typescript<br> e consome uma Api de filmes atraves do metodo fetch
 </p>
 
 <p align="center">
