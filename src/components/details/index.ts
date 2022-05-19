@@ -5,6 +5,11 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 margin-top: 10rem ;
+@media(min-width:300px) and (max-width: 768px) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 `
 export const DivDetails = styled.div`
 color: #fff;
@@ -21,16 +26,18 @@ button {
     font-size: 100%;
     transform: scale(0.9);
     transition: all .3s;
-
+    margin-left: -12px;
   }
-
+@media(min-width:300px) and (max-width: 768px) {
+  width: 280px;
+  margin: 0 0 1rem 0;
+}
 `
-export const Title = styled.h1`
-
-`
+export const Title = styled.h1``
 
 export const Image = styled.img`
 border-radius: 1rem;
 width: 280px;
 margin-bottom: 2rem;
+
 `
